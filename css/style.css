@@ -58,6 +58,12 @@ img{
     width: 86px;
 }
 /*--- NAVBAR ---*/
+.navbar{
+    position: -webkit-sticky;
+    top: 0;
+    position: sticky;
+    background-color: white;
+}
 .navbar-dark .navbar-nav .nav-link{
     color: rgb(0,0,0);
 }
