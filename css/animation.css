@@ -1,0 +1,23 @@
+.img-section1{
+    animation: img-section1 8s step-end infinite;
+
+}
+@keyframes img-section1{
+    0%{
+        background-image: url(../img/playstation-5-thumb.png);
+    }
+    25%{
+        background-image: url(../img/joypad-thumb.png);
+        background-size:60%;  
+    }
+    50%{
+        background-image: url(../img/headset-thumb.png);
+        background-size:60%;
+    }
+    75%{
+        background-image: url(../img/remote-thumb.png);
+    }
+    100%{
+        background-image: url(../img/camera-thumb.jpg);
+    }
+}
